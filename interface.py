@@ -5,7 +5,7 @@ class Interface:
     def __init__(self):
         self.heart_width = 32
         self.heart_height = 32
-        self.heart_image = pygame.image.load("corazon.png")
+        self.heart_image = pygame.image.load("heart.png")
         self.heart_image = pygame.transform.scale(
             self.heart_image,
             (self.heart_width, self.heart_height)
